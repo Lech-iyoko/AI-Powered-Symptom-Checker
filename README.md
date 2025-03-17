@@ -38,11 +38,11 @@ Convert text into TF-IDF vectors & word embeddings (Word2Vec, GloVe).
 Explore n-grams to capture phrase-level insights.
 
 4️⃣ Model Development
-Train models:
-✅ Logistic Regression
-✅ Random Forest
-✅ Deep Learning: RNN, LSTM, Transformers (BERT, BioBERT)
-Optimize for accuracy, precision, recall, and generalizability.
+* Train models:
+  - ✅ Logistic Regression
+  - ✅ Random Forest
+  - ✅ Deep Learning: RNN, LSTM, Transformers (BERT, BioBERT)
+  - Optimize for accuracy, precision, recall, and generalizability.
 🛠 Tools: scikit-learn, TensorFlow, PyTorch, Hugging Face Transformers
 
 5️⃣ Model Evaluation

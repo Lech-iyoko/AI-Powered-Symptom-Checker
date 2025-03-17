@@ -9,33 +9,33 @@ This project aims to develop a symptom checker assistant that predicts potential
   📌 Size: 1.4k rows, 2 columns
 
 * Columns
-  📝 Prompt: Text describing patient symptoms, history, or complaints.
-  📊 Completion: The most likely outcome or diagnosis for the given prompt.
-  🔍 Data Content: Covers 100+ common diseases and 30 frequent injuries.
+  - 📝 Prompt: Text describing patient symptoms, history, or complaints.
+  - 📊 Completion: The most likely outcome or diagnosis for the given prompt.
+  - 🔍 Data Content: Covers 100+ common diseases and 30 frequent injuries.
 
 
 ### 🎯 Objective
-Build an AI-powered symptom checker that:
-✅ Predicts potential conditions based on input symptoms.
-✅ Handles textual data efficiently for better insights.
-✅ Serves as a foundation for scalable healthcare AI applications.
+* Build an AI-powered symptom checker that:
+  - ✅ Predicts potential conditions based on input symptoms.
+  - ✅ Handles textual data efficiently for better insights.
+  - ✅ Serves as a foundation for scalable healthcare AI applications.
 
 ### 📌 Project Workflow
 1️⃣ Data Collection & Preprocessing
-Handle missing data, duplicates, inconsistencies.
-Text cleaning: Remove punctuation, stopwords, and normalize text.
-Tokenization & Vectorization: Convert text into numerical representations.
+  - Handle missing data, duplicates, inconsistencies.
+  - Text cleaning: Remove punctuation, stopwords, and normalize text.
+  - Tokenization & Vectorization: Convert text into numerical representations.
 🛠 Tools: pandas, textacy, nltk, spacy
 
 2️⃣ Exploratory Data Analysis (EDA)
-Pattern analysis: Identify key trends in symptom descriptions.
-Entity recognition: Extract medical terms.
-Visualization: Charts & word distributions.
+  - Pattern analysis: Identify key trends in symptom descriptions.
+  - Entity recognition: Extract medical terms.
+  - Visualization: Charts & word distributions.
 🛠 Tools: matplotlib, seaborn, spacy
 
 3️⃣ Feature Engineering
-Convert text into TF-IDF vectors & word embeddings (Word2Vec, GloVe).
-Explore n-grams to capture phrase-level insights.
+  - Convert text into TF-IDF vectors & word embeddings (Word2Vec, GloVe).
+  - Explore n-grams to capture phrase-level insights.
 
 4️⃣ Model Development
 * Train models:
@@ -46,8 +46,8 @@ Explore n-grams to capture phrase-level insights.
 🛠 Tools: scikit-learn, TensorFlow, PyTorch, Hugging Face Transformers
 
 5️⃣ Model Evaluation
-Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC.
-Compare different models to select the best performer.
+  - Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC.
+  - Compare different models to select the best performer.
 
 🖥 Deployment Strategy
 💡 Inference API Deployment → Hugging Face

@@ -78,36 +78,37 @@ This project aims to develop a symptom checker assistant that predicts potential
       - gradio  
  
 ### 🚀 Future Directions
-🔹 Expand Dataset: Include more diverse medical cases.
-🔹 Enhance Explainability: Add SHAP/LIME for model transparency.
-🔹 Improve UI/UX: Make the chatbot more interactive & user-friendly.
-🔹 Regulatory Compliance: Ensure adherence to healthcare data privacy standards (HIPAA, GDPR).
+  - 🔹 Expand Dataset: Include more diverse medical cases.
+  - 🔹 Enhance Explainability: Add SHAP/LIME for model transparency.
+  - 🔹 Improve UI/UX: Make the chatbot more interactive & user-friendly.
+  - 🔹 Regulatory Compliance: Ensure adherence to healthcare data privacy standards (HIPAA, GDPR).
 
 ### 📌 Get Started
-Clone this repository
-bash
-Copy code
-git clone https://github.com/Lech-Iyoko/AI-Powered-Symptom-Checker.git
-cd AI-Powered-Symptom-Checker
-Install dependencies
-bash
-Copy code
-pip install -r requirements.txt
-Run the API
-bash
-Copy code
-uvicorn main:app --reload
-Try the UI (Coming Soon!)
-Hugging Face Spaces - Gradio Interface (Work In Progress!)
+  - Clone this repository
+  - bash
+  - Copy code
+  - git clone https://github.com/Lech-Iyoko/AI-Powered-Symptom-Checker.git
+  - cd AI-Powered-Symptom-Checker
+  
+  - Install dependencies
+  - bash
+  - Copy code
+  - pip install -r requirements.txt
+  - Run the API
+  - bash
+  - Copy code
+  - uvicorn main:app --reload
+  - Try the UI (Coming Soon!)
+  - Hugging Face Spaces - Gradio Interface (Work In Progress!)
 
 🔗 Links & Resources
-📌 GitHub Repo: AI-Powered Symptom Checker
-📌 Hugging Face Model: To be added
-📌 API Docs (Swagger UI): To be added
+  - 📌 GitHub Repo: AI-Powered Symptom Checker
+  - 📌 Hugging Face Model: To be added
+  -  📌 API Docs (Swagger UI): To be added
 
-👨‍💻 Author
-Lech Iyoko
-📌 AI Engineer | NLP & Computer Vision Enthusiast
-📌 LinkedIn: Lech Iyoko
+### 👨‍💻 Author
+** Lech Iyoko **
+  - 📌 AI Engineer | NLP & Computer Vision Enthusiast
+  -📌 LinkedIn: Lech Iyoko
 
 🚀 Ready to Take AI in Healthcare to the Next Level? Let's Connect!

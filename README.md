@@ -50,33 +50,32 @@ This project aims to develop a symptom checker assistant that predicts potential
   - Compare different models to select the best performer.
 
 🖥 Deployment Strategy
-💡 Inference API Deployment → Hugging Face
-🔹 Backend API → FastAPI
-🔹 Conversational UI → Gradio (Hugging Face Spaces)
+  - 💡 Inference API Deployment → Hugging Face
+  - 🔹 Backend API → FastAPI
+  - 🔹 Conversational UI → Gradio (Hugging Face Spaces)
 
 🔗 How It Works?
-1️⃣ User inputs symptoms into the UI.
-2️⃣ The model refines input & suggests follow-ups (LLM integration).
-3️⃣ The ML model predicts possible conditions.
-4️⃣ A user-friendly response is generated & displayed.
+  - 1️⃣ User inputs symptoms into the UI.
+  - 2️⃣ The model refines input & suggests follow-ups (LLM integration).
+  - 3️⃣ The ML model predicts possible conditions.
+  - 4️⃣ A user-friendly response is generated & displayed.
 
 
 ### Dependencies
 ### ⚙ Dependencies
 📌 Python 3.8+
 📌 Required Libraries:
-
-java
-Copy code
-pandas  
-numpy  
-textacy  
-scikit-learn  
-matplotlib, seaborn  
-nltk, spacy  
-transformers (Hugging Face)  
-fastapi, uvicorn  
-gradio  
+      - java
+      - Copy code
+      - pandas  
+      - numpy  
+      - textacy  
+      - scikit-learn  
+      - matplotlib, seaborn  
+      - nltk, spacy  
+      - transformers (Hugging Face)  
+      - fastapi, uvicorn  
+      - gradio  
  
 ### 🚀 Future Directions
 🔹 Expand Dataset: Include more diverse medical cases.
